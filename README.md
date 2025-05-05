@@ -16,7 +16,7 @@ Word properties were compiled from various sources and merged with the memorabil
 # Key data files involved:
 *   `Cox Data Final.xlsx`: Combining entire test phase data across all cued recall sessions.
 *   `Cox Data Mem Combined.xlsx`: Combining cue and target memorability scores across the 924 words.*  
-*   `Cox_Word_Properties.xlsx`: The final output file containing words, their calculated properties, and memorability scores, used for regression.
+*   `Cox_Word_Properties.xlsx`: The final output file containing words, their calculated properties, and memorability scores, used for regression. Generated from `Word_Properties_and_VIF.ipynb`.
 
 
 ## Code Structure & Files
