@@ -26,7 +26,7 @@ Word properties were compiled from various sources and merged with the memorabil
 *   **`CC_TT_CT.ipynb`**: Get cue and target memorability scores, get CT correlation and compare with CC and TT split half scores.
 
 
-*   **`Word_Properties_and_VIF.ipynb`**: Jupyter Notebook containing the main analysis pipeline, including:
+*   **`Word_Properties_and_VIF.ipynb`**:
     *   Loading data (`Cox Data Mem Combined.xlsx`).
     *   Computing word properties for the Cox dataset words using external datasets (`SUBTLEXusExcel2007.xlsx`, `BOI means.csv` etc. as described in the paper) and `nltk`.
     *   Merging and saving the final file as `Cox_Word_Properties.xlsx`.
@@ -34,8 +34,9 @@ Word properties were compiled from various sources and merged with the memorabil
 *   **`Regression_stats.ipynb`**: Final regression table creation calculating all statistics. 
 
 
+*   **`SVR_training.ipynb`**: To save the trained SVR cue and target models respectively.
 *   **`LIWC_GI_file_gen.ipynb`**: 
-    * Predicting word level and category level memorability scores on LIWC and GI words using SVM regression models.
+    * Predicting word level and category level memorability scores on LIWC and GI words using the saved SVR models.
     * Saving the files.
 *   **`Category_level_analysis.ipynb`**:
     * Loading the category level and word level files.
