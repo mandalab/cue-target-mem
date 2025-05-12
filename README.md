@@ -9,7 +9,7 @@ This project investigates the nature of word memorability within a cued recall p
 ## Dataset
 
 The primary dataset used is based on the cued recall data from:
-*   Cox, G. E., Hemmer, P., Aue, W. R., & Criss, A. H. (2018). Cue and Target Affect Influence Cued Recall. *Journal of Experimental Psychology: Learning, Memory, and Cognition, 44*(9), 1367–1379.
+*   Cox, G. E., Hemmer, P., Aue, W. R., & Criss, A. H. (2018). Information and processes underlying semantic and episodic memory across tasks, items, and individuals. *Journal of Experimental Psychology: Learning, Memory, and Cognition, 44*(9), 1367–1379.
 
 Word properties were compiled from various sources and merged with the memorability scores derived from the Cox et al. data. 
 
